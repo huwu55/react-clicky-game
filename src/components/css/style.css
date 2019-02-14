@@ -18,10 +18,16 @@ main{
     height : 135px;
     padding : 5px;
     margin: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
 }
 
 .click-item {
     display: inline;
+}
+
+.click-item:hover img{
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 footer {
