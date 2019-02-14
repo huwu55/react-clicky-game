@@ -1,0 +1,33 @@
+.jumbotron {
+    text-align: center;
+}
+
+main{
+    padding-bottom:100px;
+    line-height: 1.5;  
+}
+
+.img-thumbnail {
+    width : 180px;
+    height : 135px;
+    padding : 5px;
+    margin: 10px;
+}
+
+.click-item {
+    display: inline;
+}
+
+footer {
+    /* background-color: #666666; */
+    width:100%;
+    /* color: #cccccc; */
+    /* font-size:10pt; */
+    bottom:0;
+    position: fixed;
+    text-align: center;
+    padding-top: 30px;
+    /* border-top: solid 5px; */
+    /* border-color:#4aaaa5; */
+}
+
