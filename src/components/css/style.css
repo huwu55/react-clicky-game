@@ -1,9 +1,15 @@
+/* body { padding-top: 70px; } */
+
+nav {
+    position: fixed;
+}
+
 .jumbotron {
     text-align: center;
 }
 
 main{
-    padding-bottom:100px;
+    padding-bottom:50px;
     line-height: 1.5;  
 }
 
@@ -24,9 +30,10 @@ footer {
     /* color: #cccccc; */
     /* font-size:10pt; */
     bottom:0;
-    position: fixed;
+    /* position: fixed; */
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     /* border-top: solid 5px; */
     /* border-color:#4aaaa5; */
 }
