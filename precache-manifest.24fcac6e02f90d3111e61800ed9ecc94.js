@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/react-clicky-game/static/media/reborn-p6.83790587.jpg"
   },
   {
-    "revision": "d938727554f2bab21551",
+    "revision": "a11ed18d3b3424f26f02",
     "url": "/react-clicky-game/static/css/main.75c10716.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/react-clicky-game/static/js/runtime~main.07c95f71.js"
   },
   {
-    "revision": "5c0423f9bdef19d94ebf",
-    "url": "/react-clicky-game/static/js/2.5c0423f9.chunk.js"
+    "revision": "0436f332f6267e74df28",
+    "url": "/react-clicky-game/static/js/2.0436f332.chunk.js"
   },
   {
     "revision": "a371fb4fc1d17c99f4bac869c79c87dd",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/react-clicky-game/static/media/reborn-p5.5382f582.jpg"
   },
   {
-    "revision": "d938727554f2bab21551",
-    "url": "/react-clicky-game/static/js/main.d9387275.chunk.js"
+    "revision": "a11ed18d3b3424f26f02",
+    "url": "/react-clicky-game/static/js/main.a11ed18d.chunk.js"
   },
   {
     "revision": "6001493511933ad1ba45ba42bb3c6d10",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/react-clicky-game/static/media/reborn-p15.ea67fef8.jpg"
   },
   {
-    "revision": "3a0692fb999891fd34e8668a195c31da",
+    "revision": "4eecf9488ddc30cae83ac0754dac562d",
     "url": "/react-clicky-game/index.html"
   }
 ];
