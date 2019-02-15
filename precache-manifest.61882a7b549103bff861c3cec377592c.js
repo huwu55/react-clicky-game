@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/react-clicky-game/static/media/reborn-p6.83790587.jpg"
   },
   {
-    "revision": "3096e7f87d7299e6d35c",
+    "revision": "d938727554f2bab21551",
     "url": "/react-clicky-game/static/css/main.75c10716.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/react-clicky-game/static/media/reborn-p5.5382f582.jpg"
   },
   {
-    "revision": "3096e7f87d7299e6d35c",
-    "url": "/react-clicky-game/static/js/main.3096e7f8.chunk.js"
+    "revision": "d938727554f2bab21551",
+    "url": "/react-clicky-game/static/js/main.d9387275.chunk.js"
   },
   {
     "revision": "6001493511933ad1ba45ba42bb3c6d10",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/react-clicky-game/static/media/reborn-p15.ea67fef8.jpg"
   },
   {
-    "revision": "6b68bb253090336ae4801100eb446d55",
+    "revision": "3a0692fb999891fd34e8668a195c31da",
     "url": "/react-clicky-game/index.html"
   }
 ];
