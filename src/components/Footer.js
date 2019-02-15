@@ -10,7 +10,7 @@ class Footer extends React.Component {
     render(){
         return(
             <footer className="footer bg-light">
-                <p>React Clicky Game</p>
+                <p>React Clicky Game @Huiling Wu</p>
             </footer>
         );
     }
