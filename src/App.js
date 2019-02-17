@@ -22,22 +22,15 @@ import p13 from "./components/images/reborn-p13.jpg";
 import p14 from "./components/images/reborn-p14.jpg";
 import p15 from "./components/images/reborn-p15.jpg";
 
-// function App() {
-//     return (
-//         <div>
-//             <Navbar />
-//             <Jumbotron />
-//             <Main />
-//             <Footer />
-//         </div>
-//     );
-// }
 
 class App extends React.Component {
     constructor(){
         super();
 
         this.state = {
+            score : 0,
+            topScore : 0,
+            comment: "Click an image to begin!",
             images : [
                 {
                     url : p0,
@@ -105,9 +98,6 @@ class App extends React.Component {
                 }
             ]
         };
-        // this.state.images.map(img =>{
-        //     console.log(img.url, img.clicked);
-        // });
     }
 
     shuffle = () => {
@@ -120,14 +110,40 @@ class App extends React.Component {
         this.setState({images});
     }
 
+    handleOnClick = index => {
+
+        if(this.state.images[index].clicked === false){
+            
+            this.state.images[index].clicked = true;
+            const score = this.state.score + 1;
+            const comment = "You guessed correctly!";
+            this.setState({score, comment});
+        }
+        else{
+            for(let i = 0; i < this.state.images.length; i++){
+                this.state.images[i].clicked = false;
+            }
+
+            const score = this.state.score;
+            if (score > this.state.topScore)
+                this.setState({topScore : score});
+
+            const comment = "You guessed incorrectly!";
+            this.setState({score : 0, comment});
+        }
+        
+
+        this.shuffle();
+    }
+
     render(){
         return (
             <div>
-                <Navbar />
+                <Navbar comment={this.state.comment} score={this.state.score} topScore={this.state.topScore} />
                 <Jumbotron />
                 <Main>
                     {this.state.images.map((img, index)=>(
-                        <Image url={img.url} shuffle={this.shuffle} />
+                        <Image index={index} url={img.url} handleOnClick={this.handleOnClick} />
                     ))}
                 </Main>
                 <Footer />
